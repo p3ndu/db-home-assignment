@@ -5,7 +5,8 @@ This repository contains vanilla Java solutions for the following exercises:
 Write a function:
 class Solution { public int solution(int[] A); }
 that, given an array A consisting of N integers, returns the maximum sum of two integers that share their first and last digits. If there are no two integers that share their first and last digits, the function should return −1.
-Examples:
+
+**Examples:**
 * Given A = [130, 191, 200, 10], the function should return 140. The only integers in A that share first and last digits are 130 and 10.
 * Given A = [405, 45, 300, 300], the function should return 600. There are two pairs of integers that share first and last digits: (405, 45) and (300, 300). The sum of the two 300s is bigger than the sum of 405 and 45.
 * Given A = [50, 222, 49, 52, 25], the function should return −1. There are no two integers that share their first and last digits.
